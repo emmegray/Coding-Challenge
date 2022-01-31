@@ -1,0 +1,70 @@
+body {
+    background-image: url(Materiale/background.jpg);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.70);
+    border-radius: 5px;
+    min-width: 360px;
+    max-width: 1200px;
+    min-height: 100px;
+    padding: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: azure;
+}
+
+.logo {
+    text-align: center;
+    height: 101px;
+}
+
+.title {
+    color: #00DD00;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.topbar {
+    background-color: #00DD00;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.monopattino {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monopattino h2 {
+    margin: 0px;
+}
+
+.monopattino p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.monopattino .carica {
+    border-radius: 5px;
+    height: 25px;
+}
+
+.monopattino.medio .carica{
+    background-color: #F5B453;
+    width: 355px;
+}
+
+.monopattino.carico .carica{
+    background-color: #00DD00;
+    width: 607px;
+}
+
+.monopattino.scarico .carica{
+    background-color: #BE4141;
+    width: 160px;
+}
